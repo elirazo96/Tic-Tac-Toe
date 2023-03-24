@@ -65,7 +65,7 @@ def check_winner(gameboard):
 game_board_print(gameboard)
 
 while game_in_progress :
-    # Ask from the current player to mark a position
+    # Ask the current player to mark a position
     choose_position(gameboard, currentplayer)
 
     # check if the game is over
